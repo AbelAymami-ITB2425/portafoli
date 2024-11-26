@@ -1,0 +1,148 @@
+.container {
+    margin: 0;   
+    margin-left: 10%;
+    margin-right: 33%;
+    display: flex;
+    font-family: "Oswald", sans-serif;
+}
+
+header {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 30px 0;
+    font-size: 60px;
+    width: 100%;
+}
+
+a {    
+    font-weight: bolder;
+    margin: 0;
+}
+
+header .container {
+    display: flex; 
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+}
+
+.perfil {
+    float: left; 
+    height: 120px; 
+    width: 120px;
+    border-radius: 65px;
+}
+
+footer {
+    background-color: #000000;
+    color: #33ff00c0;
+    padding: 7px 0;
+    font-size: large;
+    font-weight: bolder;
+    text-align: center; 
+    width: 100%; 
+    position: fixed;
+    bottom: 0;
+    font-family: Roboto, sans-serif;
+}
+
+video {
+    width: 95%;
+    height: 56%;
+    border-radius: 6px;
+    margin-right: 15px;
+}
+
+.videovertical {
+    width: 470px;
+    height: 433px;
+    border-radius: 6px;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+/* ENLLAÇOS DE LES PAGINES */
+.caixaenllaços {
+    background-color: #000000;
+    width: 33%;
+    height: auto;
+    margin-left: 2px;
+    margin-top: 15px;
+    padding: 15px;
+    font-size: x-large;
+    color: #33ff00c0;
+    font-family: Roboto, sans-serif;
+    text-decoration: none;
+    border-radius: 2px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.caixaenllaços ul li {
+    color: #ffffff;
+    padding-bottom: 48px;
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+    font-weight: normal;
+    margin: 10px;
+    text-align: justify;
+}
+
+/* TEXT INFORMATIU */
+.caixacoses {
+    background-color: #000000;
+    width: 33%;
+    height: auto;
+    margin-right: 2px;
+    margin-top: 15px;
+    padding: 15px;
+    color: #33ff00c0;
+    font-family: Roboto, sans-serif;
+    font-size: x-large;
+    text-align: center;
+    border-radius: 2px ;
+}
+
+.caixacoses ul {
+    color: #ffffff;
+    font-size: 18px;
+    margin-right: 10px;
+    padding-bottom: 30px;
+    font-family: Roboto, sans-serif;
+}
+
+.caixacoses ul li {
+    margin: 20px;
+    text-align: justify;
+}
+
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    gap: 20px; 
+}
+
+.perfil-aside {
+    width: 25%; 
+    margin-top: 15px;
+    background-color: #000000; 
+    padding: 15px;
+    border-radius: 2px; 
+    text-align: center; 
+    color: #ffffff;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+}
+
+.perfil-aside img {
+    width: 120px; 
+    border-radius: 50%;
+    margin-bottom: 15px;
+    margin: 5px;
+}
+
+.perfil-aside h2 {
+    font-family: Roboto, sans-serif;    
+    margin-bottom: 9px;
+}

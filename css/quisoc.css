@@ -1,0 +1,55 @@
+.container {
+    width: 100%; 
+    max-width: 1680px; 
+    margin: 0;
+    
+    
+}
+
+header {
+    background-color: #000000;
+    color: #33ff00c0;
+    padding: 20px 0;
+    font-size: xx-large;
+    text-align: center; 
+    width: 100%; 
+   
+}
+
+header .container {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    flex-wrap: wrap; 
+    
+}
+
+nav {
+    margin-left: auto;
+    text-align: right;
+    margin-top: 55px;
+    font-size: medium;
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+}
+nav ul li {
+    display: inline;
+}
+
+nav ul li a, #Calc {
+    color: #33ff00c0;
+    text-decoration: none;
+    margin-left: 12px;
+    transition: color 0.3s;
+    font-size: 22px;
+}
+
+nav ul li a:hover{
+    color: #ffffff;
+}
