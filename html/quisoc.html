@@ -1,25 +1,50 @@
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TA04 Abel</title>
-
-
+    <title>Contacte</title>
     <link rel="stylesheet" href="../css/quisoc.css">
 </head>
 <body>
     <header>
-        <div class="container">
-            <b>QUI SÓC</b>
-            <nav>
-                <ul>                        
-                    <li><a href="home.html">HOME</a></li>
-                    <li><a href="projecte1.html">Projecte1</a></li>
-                    <li><a href="llistat_principal.html">Llistat Principal</a></li>
-                </ul>
-            </nav>
-        </div>
+        <h1>Abel Aymamí Molins</h1>
     </header>
-    <li>Jo sóc</li>
+    <nav>
+        <ul style="display: flex; gap: 20px; list-style: none; padding: 0; margin-right: auto;">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../html/projectes.html">Projectes</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="about-me">
+            <h2>Qui soc?</h2>
+            <p>Sóc l'Abel Aymamí, estudiant d'ASIXc a l'Institut Tecnològic de Barcelona.</p>
+            <h2>Estudis</h2>
+            <ul>
+                <li>Educació secundaria obligatoria (ESO) - Jesüites El Clot [ACABAT]</li>
+                <li>Grau Mitjá SMX - Institut tecnològic de Barcelona [ACABAT]</li>
+                <li>Grau Superior ASIXc - Institut tecnològic de Barcelona [En Procés]</li>
+            </ul>
+        </section>
+        <section id="contact-form">
+            <h2>Contacto</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Nom:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Correu Electrónic:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Missatge:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 [Abel Aymamí]. Todos los derechos reservados.</p>
+    </footer>
 </body>
 </html>
